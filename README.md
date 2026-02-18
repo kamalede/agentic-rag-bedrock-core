@@ -249,12 +249,3 @@ You can test the same agent from the AWS Console.
 
 ---
 
-
-
-
-
----
-
-## License
-
-See repository license file.
