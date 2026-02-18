@@ -249,24 +249,9 @@ You can test the same agent from the AWS Console.
 
 ---
 
-## Before pushing to GitHub
 
-1. **Never commit `.env`** — It’s in `.gitignore`. If you added it before, untrack it (file stays on disk):
 
-   ```bash
-   git rm --cached .env
-   ```
 
-2. **Check what will be pushed:**
-
-   ```bash
-   git status
-   git diff --staged
-   ```
-
-   Confirm no `.env`, `.venv/`, or real API keys appear.
-
-3. **Optional:** Redact account-specific details from `.bedrock_agentcore.yaml` (e.g. replace your account ID with a placeholder) if you prefer not to share it in a public repo.
 
 ---
 
